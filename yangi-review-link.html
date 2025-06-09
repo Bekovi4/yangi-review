@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Оставьте отзыв о Yangi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 50px;
+      background: #f2f2f2;
+    }
+    h1 {
+      color: #333;
+    }
+    a {
+      display: inline-block;
+      margin: 15px;
+      padding: 14px 28px;
+      font-size: 18px;
+      text-decoration: none;
+      border-radius: 8px;
+      color: white;
+    }
+    .apple {
+      background-color: #007aff;
+    }
+    .google {
+      background-color: #34a853;
+    }
+  </style>
+  <script>
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+    if (isIOS) {
+      window.location.href = 'https://apps.apple.com/in/app/yangi-online-banking-loans/id1644376437?action=write-review';
+    } else {
+      window.location.href = 'https://play.google.com/store/apps/details?id=uz.yangi.finance';
+    }
+  </script>
+</head>
+<body>
+  <h1>🙏 Оцените наше приложение Yangi</h1>
+  <p>Вы можете оставить отзыв вручную, выбрав нужный магазин ниже:</p>
+  <a class="apple" href="https://apps.apple.com/in/app/yangi-online-banking-loans/id1644376437?action=write-review" target="_blank">App Store</a>
+  <a class="google" href="https://play.google.com/store/apps/details?id=uz.yangi.finance" target="_blank">Google Play</a>
+</body>
+</html>
